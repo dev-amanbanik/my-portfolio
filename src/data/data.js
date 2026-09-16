@@ -1,3 +1,4 @@
+import profileImg from "../assets/aman image.png";
 // ============================================================
 //  data.js — Edit ALL personal content here.
 //  No need to touch any UI component files.
@@ -7,18 +8,18 @@ export const personalInfo = {
   name: "Aman Banik",
   title: "Full-Stack Web Developer",
   tagline: "I build fast, scalable web experiences — from pixel-perfect UIs to robust APIs.",
-  email: "amanbanik1920@email.com",
+  email: "amanbanik1920@gmail.com",
   phone: "+91 9634922854",
   location: "Gadarpur, Uttarakhand, India",
 
-  profileImage: "https://api.dicebear.com/7.x/adventurer/svg?seed=alexmorgan&backgroundColor=0d1321",
-  // resumeLink: "/resume.pdf", // Place resume.pdf inside the public/ folder
+  profileImage: profileImg, // Place profile image inside the assets/ folder
+  resumeLink: "/aman resume.pdf", // Place resume.pdf inside the public/ folder
   bio: [
-    "I'm a software engineer with 1+ years of experience crafting end-to-end web applications. My stack lives at the intersection of React, Node.js, and cloud infrastructure — I care about clean code, performance, and delightful UX.",
+    "I'm a software engineer with 2+ years of collage projects experience crafting end-to-end web applications. My stack lives at the intersection of React, Node.js, MongoDB, Python, DSA and cloud infrastructure — I care about clean code, performance, and delightful UX.",
     "When I'm not shipping features, I contribute to open-source, write technical blog posts, and mentor junior developers. I believe the best software is built by curious, empathetic teams.",
   ],
   socials: {
-    github: "https://github.com/1920aman",
+    github: "https://github.com/dev-amanbanik",
     linkedin: "https://www.linkedin.com/in/aman-banik-b94185250/",
     twitter: "https://x.com/AmanBanik1",
    
@@ -114,7 +115,7 @@ export const projects = [
       "A real-time collaborative text editor with rich formatting, live cursors, and offline support. Built with React, Node.js, WebRTC, and CRDTs for conflict-free syncing.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80&auto=format&fit=crop",
     tags: ["React","JavaScript","Bootstrap"],
-    github: "https://github.com/1920aman/practice-list",
+    github: "https://github.com/dev-amanbanik/textutils",
     demo: "https://1920aman.github.io/practice-list/",
     featured: true,
   },
@@ -125,7 +126,7 @@ export const projects = [
       "A news aggregator dashboard that pulls in real-time headlines from 50+ sources worldwide. Features personalized topic filters, sentiment analysis, and interactive data visualizations.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80&auto=format&fit=crop",
     tags: ["React", "News API","Bootstrap"],
-     github: "https://github.com/1920aman/newsapp",
+     github: "https://github.com/dev-amanbanik/newsapp",
    
     featured: true,
   },

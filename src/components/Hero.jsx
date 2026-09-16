@@ -7,9 +7,9 @@ import { personalInfo } from "../data/data";
 const ROLES = [
   "Full-Stack Developer",
   "React Specialist",
-  "Open-Source Contributor",
+  "Python developer",
   "Modern Frontend Engineer",
-  "API Architect",
+  "DSA Enthusiast",
 ];
 
 const Hero = () => {
@@ -78,7 +78,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full border border-accent-green/30 bg-accent-green/10">
             <span className="w-2 h-2 rounded-full bg-accent-green animate-pulse" />
             <span className="font-mono text-xs text-accent-green tracking-widest uppercase">
-              {personalInfo.contactInfo?.availableForWork !== false
+              {personalInfo.contactInfo?.availableForwork !== false
                 ? "Available for work"
                 : "Currently employed"}
             </span>
@@ -174,7 +174,7 @@ const Hero = () => {
             {/* Floating badge */}
             <div className="absolute -bottom-2 -right-2 px-3 py-1.5 bg-bg-card border border-border-subtle rounded-lg shadow-card">
               <p className="font-mono text-xs text-accent-cyan">
-                &lt;/1 yr xp&gt;
+                &lt;/Fresher &gt;
               </p>
             </div>
           </div>

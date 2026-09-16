@@ -74,15 +74,15 @@ const Navbar = () => {
               </button>
             </li>
           ))}
-          {/* <li>
+          <li>
             <a
-              href="/resume.pdf"
+              href="/aman resume.pdf"
               download
               className="ml-3 px-4 py-2 bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan font-outfit text-sm font-medium rounded-md hover:bg-accent-cyan/20 hover:border-accent-cyan/60 transition-all duration-300"
             >
               Resume ↗
             </a>
-          </li> */}
+          </li> 
         </ul>
 
         {/* Mobile Hamburger */}

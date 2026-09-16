@@ -5,9 +5,9 @@ import SectionWrapper from "./SectionWrapper";
 import { personalInfo } from "../data/data";
 
 const statItems = [
-  { value: "2", label: "Years Experience" },
-  { value: "5-7", label: "Projects Shipped" },
-  { value: "2", label: "Companies" },
+  { value: "Fresher", label: "Years Experience" },
+  { value: "5-6", label: "Projects Shipped" },
+  { value: "0", label: "Companies" },
   { value: "∞", label: "Coffees Consumed" },
 ];
 
